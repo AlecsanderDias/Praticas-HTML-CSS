@@ -132,25 +132,29 @@ body {
     justify-content: center;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 750px) {
     .cabecalho {
-        padding: 5% 0 0 22%;
+        padding: 7% 2% 0 2%;
     }
     
+    .cabecalho__menu {
+        justify-content: center;
+    }
+
     .apresentacao {
-        padding: 8% 8%;
+        padding: 5% 5%;
         flex-direction: column-reverse;
         align-items: center;
     }
 
     .apresentacao__imagem {
-        max-width: 75%;
-        max-height: 75%;
+        max-width: 60%;
+        max-height: 60%;
         padding-bottom: 10%;
     }
 
     .apresentacao__texto {
-        width: 90%;
+        width: 100%;
         text-align: start;
     }
 
